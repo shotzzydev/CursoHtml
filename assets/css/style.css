@@ -1,0 +1,16 @@
+body {
+    background: black;
+    color: #fff;
+}
+
+main {
+    margin-top: 20%;
+    text-align: center;
+    background-color: rgb(177, 128, 24);
+    border-radius: 20px;
+    border: 2px solid #ffffff6e;
+}
+
+img {
+    height: 50px;
+}
