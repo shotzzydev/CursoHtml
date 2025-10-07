@@ -4,11 +4,17 @@ body {
 }
 
 main {
-    margin-top: 20%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 10%;
     text-align: center;
     background-color: rgb(177, 128, 24);
     border-radius: 20px;
     border: 2px solid #ffffff6e;
+}
+
+main:hover {
+    background-color: rgb(177, 24, 24);
 }
 
 img {

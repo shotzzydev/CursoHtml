@@ -1,0 +1,17 @@
+body {
+    background: black;
+    color:  #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+img {
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.452);
+}
