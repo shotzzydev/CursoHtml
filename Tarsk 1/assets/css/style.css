@@ -1,17 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+    --background-primary: rgb(37, 37, 37);
+    --text-color-primary: #fff;
+    --border-color: rgba(255, 255, 255, 0.452);
+}
+
 body {
-    background: black;
-    color:  #fff;
+    background: var(--background-primary);
+    color: var(--text-color-primary);
+    font-family: "SUSE Mono", sans-serif;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
-
 
 img {
     width: 500px;
     border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.452);
+    border: 2px solid var(--border-color)
 }
